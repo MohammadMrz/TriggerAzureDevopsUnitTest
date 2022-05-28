@@ -35,7 +35,7 @@ namespace Tests
             //Act
             int result = dummy - 10;
             //Assert
-            Assert.IsTrue(result == 1);
+            Assert.IsTrue(result == 0);
         }
     }
 }
