@@ -11,7 +11,7 @@ namespace Tests
             //Arrange 
             int dummy = 10;
             //Act
-            int result = 10 * 10;
+            int result = dummy * 10;
             //Assert
             Assert.IsTrue(result > 99);
         }
@@ -22,7 +22,7 @@ namespace Tests
             //Arrange 
             int dummy = 10;
             //Act
-            int result = 10 + 10;
+            int result = dummy + 10;
             //Assert
             Assert.IsTrue(result == 20);
         }
@@ -33,9 +33,9 @@ namespace Tests
             //Arrange 
             int dummy = 10;
             //Act
-            int result = 10 - 10;
+            int result = dummy - 10;
             //Assert
-            Assert.IsTrue(result == 0);
+            Assert.IsTrue(result == 1);
         }
     }
 }

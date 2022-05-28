@@ -37,9 +37,9 @@ steps:
     testRunTitle: 'running unit tests'
   displayName: 'test process'
 
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'run'
-    projects: '**/*.csproj'
-  displayName: 'run process'
+#- task: DotNetCoreCLI@2
+#  inputs:
+#    command: 'run'
+#    projects: '**/*.csproj'
+#  displayName: 'run process'
 
