@@ -28,19 +28,18 @@ steps:
   inputs:
     command: 'build'
     projects: '**/*.csproj'
-
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'build'
-    projects: '**/*.csproj'
+  displayName: 'build process'
 
 - task: DotNetCoreCLI@2
   inputs:
     command: 'test'
     projects: '**/*.csproj'
     testRunTitle: 'running unit tests'
+  displayName: 'test process'
 
 - task: DotNetCoreCLI@2
   inputs:
     command: 'run'
     projects: '**/*.csproj'
+  displayName: 'run process'
+
